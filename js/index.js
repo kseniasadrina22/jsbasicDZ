@@ -33,7 +33,7 @@ console.log("boolValue", boolValue);
 const Name = "java script";
 console.log("Name", Name);
 
-const numberVariable2 = 100;
+const numberVariable2 = "100";
 console.log("numberVariable2", numberVariable2);
 
 //5) Переробіть наведений код так, щоб у ньому використовувалися операції +=, -=, *=, /=, ++, --
@@ -88,5 +88,5 @@ const result = a * 60;
 console.log("Your result is");
 //4) Створіть змінну greeting зі значенням 'Hello,' і оголосіть змінну userName. Запитайте ім'я користувача та внесіть це значення у змінну userName. Виведіть повідомлення з привітанням, наприклад, 'Hello, Vasya!'. (згадайте про конкатенацію)
 let userName = prompt("input value");
-const greeting = "Hello + userName )!";
+const greeting = "Hello" + userName + ")!";
 console.log("greeting :>>", greeting);
